@@ -1,0 +1,36 @@
+.Navbar {
+  width: 240px;
+  height: 100vh;
+  text-align: left;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: rgba(250, 251, 253, 1);
+  padding: 47px 56px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-bottom: 122px;
+}
+
+.orange-logo {
+  color: rgba(247, 84, 46, 1);
+}
+
+.links {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.links h2 {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(158, 158, 158, 1);
+}
+
+.active h2 {
+  font-weight: 700 !important;
+  color: rgba(9, 15, 49, 1) !important;
+}

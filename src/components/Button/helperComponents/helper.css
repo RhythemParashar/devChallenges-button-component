@@ -1,0 +1,149 @@
+/* Common button Styles */
+.button {
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 8px 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 2px 3px 0px rgba(51, 51, 51, 0.2);
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+/* No Shadow styles */
+.noshadow {
+  box-shadow: none !important;
+}
+
+/* Default Variant Styles */
+.default {
+  color: rgba(63, 63, 63, 1);
+  background-color: rgba(224, 224, 224, 1);
+}
+
+.default:hover {
+  background-color: rgba(174, 174, 174, 1);
+}
+
+.default:focus {
+  background-color: rgba(174, 174, 174, 1);
+  outline: none;
+}
+
+.default-disabled {
+  color: rgba(158, 158, 158, 1) !important;
+  background-color: rgba(224, 224, 224, 1) !important;
+}
+
+/* Outline Variant Styles */
+.outline {
+  border: 1px solid rgba(61, 90, 254, 1) !important;
+  color: rgba(61, 90, 254, 1) !important;
+  background-color: #fff;
+  box-shadow: none !important;
+}
+
+.outline:hover {
+  background-color: rgba(41, 98, 255, 0.1) !important;
+}
+
+.outline:focus {
+  background-color: rgba(41, 98, 255, 0.1) !important;
+  outline: none;
+}
+
+.outline-disabled {
+  border: 1px solid rgba(61, 90, 254, 1) !important;
+  color: rgba(61, 90, 254, 1) !important;
+  background-color: #fff;
+  box-shadow: none !important;
+}
+
+/* Text Variant Styles */
+.text {
+  background-color: #fff !important;
+  color: rgba(61, 90, 254, 1) !important;
+  box-shadow: none !important;
+}
+
+.text:hover {
+  background-color: rgba(41, 98, 255, 0.1) !important;
+}
+
+.text:focus {
+  background-color: rgba(41, 98, 255, 0.1) !important;
+  outline: none;
+}
+
+.text-disabled {
+  background-color: #fff !important;
+  color: rgba(158, 158, 158, 1) !important;
+  box-shadow: none !important;
+}
+
+/* Size Styles */
+.sm {
+  padding: 5px 10px !important;
+  font-size: 12px !important;
+}
+
+.md {
+  padding: 8px 16px !important;
+}
+.lg {
+  padding: 14px 25px !important;
+  font-size: 16px !important;
+}
+
+/* Color styles */
+.color-primary {
+  background-color: rgba(41, 98, 255, 1) !important;
+  color: #fff !important;
+}
+
+.color-primary:hover {
+  background-color: rgba(0, 57, 203, 1) !important;
+}
+
+.color-primary:focus {
+  background-color: rgba(0, 57, 203, 1) !important;
+}
+
+.color-secondary {
+  background-color: rgba(69, 90, 100, 1) !important;
+  color: #fff !important;
+}
+
+.color-secondary:hover {
+  background-color: rgba(28, 49, 58, 1) !important;
+}
+
+.color-secondary:focus {
+  background-color: rgba(28, 49, 58, 1) !important;
+}
+
+.color-danger {
+  background-color: rgba(211, 47, 47, 1) !important;
+  color: #fff !important;
+}
+
+.color-danger:hover {
+  background-color: rgba(154, 0, 7, 1) !important;
+}
+
+.color-danger:focus {
+  background-color: rgba(154, 0, 7, 1) !important;
+}
+
+.icons {
+  width: 20px;
+  color: #fff;
+}
+
+.button-text-span {
+  margin-left: 7px;
+  margin-right: 7px;
+}
